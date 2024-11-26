@@ -352,7 +352,7 @@
     grid-column: span 1;
   }
 
-  .topic > .title_decor{
+  .topic > .title_decor {
     grid-column: 2 / 4;
   }
 

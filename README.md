@@ -1,7 +1,8 @@
 # Сложно сосредоточиться
 Веб-приложение для демонстрации работы с HTML, CSS и JavaScript, созданное для улучшения навыков веб-разработки.
 
-![image](https://github.com/Iamroot3/slozhno-sosredotochitsya)
+![Screenshot_2](https://github.com/user-attachments/assets/ce47ece0-0ef4-417a-bf50-95a7cdcf18e5)
+(https://github.com/Iamroot3/slozhno-sosredotochitsya)
 
 ## Ссылка на макет в Figma
 - [Ссылка на макет в Figma](https://www.figma.com/design/lCqDbWjgllgJtb2hmCqfyX/%236-Сложно-сосредоточиться?node-id=0-1&node-type=canvas&t=sATEFKMp7nqeH7Pk-0)

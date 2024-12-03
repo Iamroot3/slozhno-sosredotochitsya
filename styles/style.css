@@ -241,7 +241,7 @@
     grid-column: 2 / 3;
   }
 
-  .topic:nth-child(2) .topic__card {
+  .topic--distraction .topic__card {
     grid-column: 1 / 4;
   }
 
@@ -337,17 +337,17 @@
     grid-column: 2 / 4;
   }
 
-  .topic:nth-child(2) {
+  .topic--distraction {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
 
   }
 
-  .topic:nth-child(2) .topic__title {
+  .topic--distraction .topic__title {
     grid-row: span 1;
   }
 
-  .topic:nth-child(2) .topic__card {
+  .topic--distraction .topic__card {
     grid-row: 2 / 3 ;
     grid-column: span 1;
   }

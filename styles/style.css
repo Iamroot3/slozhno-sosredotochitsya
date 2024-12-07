@@ -329,26 +329,26 @@
   }
 
   .topic {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
-
 
   .topic__card {
     grid-column: 2 / 4;
   }
 
   .topic--distraction {
+    display: grid; 
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-
+    gap: 20px;
   }
 
   .topic--distraction .topic__title {
-    grid-row: span 1;
+    grid-column: 1 / -1;
   }
 
   .topic--distraction .topic__card {
-    grid-row: 2 / 3 ;
     grid-column: span 1;
   }
 

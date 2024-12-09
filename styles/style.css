@@ -4,13 +4,18 @@
 .page {
   font-family: var(--font-family);
   background-color: var(--background-color);
+  background-image: var(--background-image);
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .decorated-zone::before {
   align-self: flex-start;
   justify-self: end;
   position: absolute;
+  right: 20px;
   content: "";
   inline-size: 25px;
   block-size: 25px;
@@ -22,6 +27,7 @@
   justify-self: start;
   align-self: flex-end;
   position: absolute;
+  left: 20px;
   content: "";
   inline-size: 25px;
   block-size: 25px;
@@ -42,8 +48,8 @@
 
 .header {
   height: 100vh;
+  min-height: 668px;
   padding: 10px;
-  background-image: var(--background-image);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -58,6 +64,7 @@
   align-self: flex-start;
   justify-self: end;
   position: absolute;
+  right: 20px;
   visibility: var(--is-light);
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -194,7 +201,8 @@
 
 .footer {
   padding: 10px;
-  block-size: 100vh;
+  height: 100vh;
+  min-height: 668px;
   display: grid;
 }
 
